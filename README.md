@@ -1,5 +1,5 @@
 # Gatsby Material-UI Starter
-The Gatsby Material-UI starter (based on Gatsby default starter).
+Starter template for Gatsby using Material-UI (based on [Gatsby default starter](https://github.com/gatsbyjs/gatsby-starter-default/tree/v2). See live demo [here](https://gatsby-starter-material-ui.netlify.com/).
 
 For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
 
