@@ -4,9 +4,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import { Link } from 'gatsby';
 
-import withRoot from '../withRoot';
-
-const Header = withRoot(({ siteTitle }) => (
+const Header = ({ siteTitle }) => (
     <AppBar position="static">
         <Toolbar>
             <Typography variant="title" color="inherit">
@@ -22,6 +20,6 @@ const Header = withRoot(({ siteTitle }) => (
             </Typography>
         </Toolbar>
     </AppBar>
-));
+);
 
 export default Header;

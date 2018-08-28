@@ -5,20 +5,15 @@ import {
     createMuiTheme,
     createGenerateClassName
 } from '@material-ui/core/styles';
-import green from '@material-ui/core/colors/green';
 
-// A theme with custom primary and secondary color.
-// It's optional.
+// Create a theme with Gatsby brand colors. You can choose your own
 const theme = createMuiTheme({
     palette: {
         primary: {
-            // Gatsby purple
             main: '#663399'
         },
         secondary: {
-            light: green[300],
-            main: green[500],
-            dark: green[700]
+            main: '#ffb238'
         }
     }
 });

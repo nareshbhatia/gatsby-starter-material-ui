@@ -2,7 +2,6 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 
 import Layout from '../components/layout';
-import withRoot from '../withRoot';
 
 const NotFoundPage = () => (
     <Layout>
@@ -15,4 +14,4 @@ const NotFoundPage = () => (
     </Layout>
 );
 
-export default withRoot(NotFoundPage);
+export default NotFoundPage;

@@ -1,29 +1,52 @@
 import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
-import Typography from '@material-ui/core/Typography';
 import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
-import withRoot from '../withRoot';
 
 const styles = theme => ({
-    linkWrapper: {
-        marginTop: theme.spacing.unit * 2
+    section: {
+        marginTop: theme.spacing.unit * 3
     }
 });
 
 const SecondPage = ({ classes }) => (
     <Layout>
-        <Typography variant="display2" gutterBottom>
-            Hi from the second page
-        </Typography>
-        <Typography>Welcome to page 2.</Typography>
-        <Typography>Now go build something great.</Typography>
+        <h1>Hi from the second page</h1>
+        <p>Welcome to page 2.</p>
+        <p>
+            This page has been styled using global CSS. This approach could be
+            used to style simple HTML markup, e.g. Markdown generated markup.
+            Here's an example:
+        </p>
 
-        <div className={classes.linkWrapper}>
-            <Link to="/">Go back to the homepage</Link>
+        <h2>Richard Hamming on Luck</h2>
+        <div>
+            <p>
+                From Richard Hamming’s classic and must-read talk, “
+                <a href="http://www.cs.virginia.edu/~robins/YouAndYourResearch.html">
+                    You and Your Research
+                </a>
+                ”.
+            </p>
+            <blockquote>
+                <p>
+                    There is indeed an element of luck, and no, there isn’t. The
+                    prepared mind sooner or later finds something important and
+                    does it. So yes, it is luck.{' '}
+                    <em>
+                        The particular thing you do is luck, but that you do
+                        something is not.
+                    </em>
+                </p>
+            </blockquote>
         </div>
+        <p>Posted April 09, 2011</p>
+
+        <section className={classes.section}>
+            <Link to="/">Go back to the homepage</Link>
+        </section>
     </Layout>
 );
 
-export default withRoot(withStyles(styles)(SecondPage));
+export default withStyles(styles)(SecondPage);
