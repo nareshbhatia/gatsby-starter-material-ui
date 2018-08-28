@@ -1,0 +1,52 @@
+/* Apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Reset */
+html, body, div {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fafafa;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.87);
+
+    /* Helps fonts on OSX look more consistent with other systems */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Use momentum-based scrolling on iOS devices */
+    -webkit-overflow-scrolling: touch;
+}
+
+h1 {
+    margin: 0 0 .35em 0;
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 2.8125rem;
+    font-weight: 400;
+    line-height: 1.13333em;
+}
+
+h2 {
+    margin: 0 0 .35em 0;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 1.3125rem;
+    font-weight: 500;
+    line-height: 1.16667em;
+}
+
+p {
+    margin: 0 0 1em 0;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.46429em;
+}

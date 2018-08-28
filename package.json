@@ -18,20 +18,17 @@
   },
   "dependencies": {
     "@material-ui/core": "^3.0.0",
+    "@material-ui/icons": "^3.0.0",
     "gatsby": "next",
     "gatsby-plugin-manifest": "next",
     "gatsby-plugin-offline": "next",
     "gatsby-plugin-react-helmet": "next",
-    "gatsby-plugin-typography": "next",
     "jss": "^9.8.7",
     "prop-types": "^15.6.2",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-helmet": "^5.2.0",
-    "react-jss": "^8.6.1",
-    "react-typography": "^0.16.13",
-    "typeface-roboto": "^0.0.54",
-    "typography": "^0.16.17"
+    "react-jss": "^8.6.1"
   },
   "devDependencies": {
     "prettier": "^1.14.2"
