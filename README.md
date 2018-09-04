@@ -1,4 +1,7 @@
 # Gatsby Material-UI Starter
+
+![Screenshot](assets/screen-shot.png)
+
 Starter template for Gatsby using Material-UI (based on [Gatsby default starter](https://github.com/gatsbyjs/gatsby-starter-default/tree/v2). See live demo [here](https://gatsby-starter-material-ui.netlify.com/).
 
 For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
