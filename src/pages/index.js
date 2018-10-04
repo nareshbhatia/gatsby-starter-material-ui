@@ -8,6 +8,7 @@ import DeleteIcon from '@material-ui/icons/Delete';
 import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
+import withRoot from '../withRoot';
 
 const styles = theme => ({
     section: {
@@ -91,4 +92,4 @@ const IndexPage = ({ classes }) => (
     </Layout>
 );
 
-export default withStyles(styles)(IndexPage);
+export default withRoot(withStyles(styles)(IndexPage));

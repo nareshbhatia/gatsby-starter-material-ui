@@ -4,7 +4,6 @@ import { StaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
-import withRoot from '../withRoot';
 import Header from './header';
 
 const styles = theme => ({
@@ -53,4 +52,4 @@ Layout.propTypes = {
     classes: PropTypes.object.isRequired
 };
 
-export default withRoot(withStyles(styles)(Layout));
+export default withStyles(styles)(Layout);

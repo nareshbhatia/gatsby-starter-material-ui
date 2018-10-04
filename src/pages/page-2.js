@@ -3,6 +3,7 @@ import { withStyles } from '@material-ui/core/styles';
 import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
+import withRoot from '../withRoot';
 
 const styles = theme => ({
     section: {
@@ -49,4 +50,4 @@ const SecondPage = ({ classes }) => (
     </Layout>
 );
 
-export default withStyles(styles)(SecondPage);
+export default withRoot(withStyles(styles)(SecondPage));
