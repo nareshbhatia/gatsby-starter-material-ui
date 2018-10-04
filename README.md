@@ -23,15 +23,24 @@ Dev Build
 ---------
 ```bash
 $ yarn
-$ gatsby develop
+$ yarn develop
 ```
 
-Now point your browser to http://localhost:8000/.
+Now point your browser to http://localhost:8000.
 
 Production Build
 ----------------
 ```bash
-$ gatsby build
+$ yarn build
+$ yarn serve
 ```
 
-Now deploy the public folder to your production web server.
+Now point your browser to http://localhost:9000 and test the production
+build locally. When you are happy with it, deploy the public folder to
+your production web server.
+
+Formatting JavaScript Code
+--------------------------
+```bash
+$ yarn format
+```
