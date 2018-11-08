@@ -5,7 +5,7 @@ import Layout from '../components/layout';
 
 const NotFoundPage = () => (
     <Layout>
-        <Typography variant="display2" gutterBottom>
+        <Typography variant="h3" gutterBottom>
             NOT FOUND
         </Typography>
         <Typography>

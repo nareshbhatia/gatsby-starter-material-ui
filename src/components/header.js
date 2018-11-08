@@ -7,7 +7,7 @@ import { Link } from 'gatsby';
 const Header = ({ siteTitle }) => (
     <AppBar position="static">
         <Toolbar>
-            <Typography variant="title" color="inherit">
+            <Typography variant="h6" color="inherit">
                 <Link
                     to="/"
                     style={{

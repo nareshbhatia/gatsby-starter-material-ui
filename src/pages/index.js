@@ -24,14 +24,14 @@ const styles = theme => ({
 
 const IndexPage = ({ classes }) => (
     <Layout>
-        <Typography variant="display2" gutterBottom>
+        <Typography variant="h3" gutterBottom>
             Hi people
         </Typography>
         <Typography>Welcome to your new Gatsby site.</Typography>
         <Typography>This page has been styled using Material-UI.</Typography>
 
         <section className={classes.section}>
-            <Typography variant="title" gutterBottom>
+            <Typography variant="h6" gutterBottom>
                 Sample Components
             </Typography>
             <div className={classes.toolbar}>
