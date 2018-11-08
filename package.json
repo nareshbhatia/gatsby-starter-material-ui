@@ -21,7 +21,7 @@
     "@material-ui/core": "^3.4.0",
     "@material-ui/icons": "^3.0.1",
     "core-js": "^2.5.7",
-    "gatsby": "2.0.42",
+    "gatsby": "2.0.43",
     "gatsby-plugin-manifest": "2.0.8",
     "gatsby-plugin-offline": "2.0.13",
     "gatsby-plugin-react-helmet": "3.0.1",
