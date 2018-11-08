@@ -20,6 +20,7 @@
   "dependencies": {
     "@material-ui/core": "^3.1.2",
     "@material-ui/icons": "^3.0.1",
+    "core-js": "^2.5.7",
     "gatsby": "2.0.18",
     "gatsby-plugin-manifest": "2.0.4",
     "gatsby-plugin-offline": "2.0.5",
